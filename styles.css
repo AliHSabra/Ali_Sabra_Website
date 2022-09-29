@@ -1,182 +1,177 @@
-.head{
-   padding-top: 20px;
-   margin-bottom: 150px;
-   content: "";
-   position: relative;
-   
+.head {
+  padding-top: 20px;
+  margin-bottom: 150px;
+  content: "";
+  position: relative;
 }
 
-.head::before{
-   content: "";
-   display: block;
-   width: 50%;
-   height: 2px;
-   background-image: linear-gradient(to left, gold , black);
-   position: absolute;
-   left: 0;
-   top: 70%;
-   z-index: -2;
+.head::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-image: linear-gradient(to left, gold, black);
+  position: absolute;
+  left: 0;
+  top: 70%;
+  z-index: -2;
 }
 
-.head::after{
-   content: "";
-   display: block;
-   width: 50%;
-   height: 2px;
-   background-image: linear-gradient(to right, gold , black);
-   position: absolute;
-   right: 0;
-   top: 70%;
-   z-index: -2;
+.head::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-image: linear-gradient(to right, gold, black);
+  position: absolute;
+  right: 0;
+  top: 70%;
+  z-index: -2;
 }
 
-.sub1, .sub0{
-   font-size: 130px;
-   
+.sub1,
+.sub0 {
+  font-size: 130px;
 }
 
-.head-img{
-   justify-items: flex-start;
-   width: 100%;
-   height: 100%;
-   padding-top: 30px;
-   margin-bottom: 100px;
-   object-fit: contain;
+.head-img {
+  justify-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  margin-bottom: 100px;
+  object-fit: contain;
 }
 
-.sub0{
-   margin-right: 400px;
-   
+.sub0 {
+  margin-right: 400px;
 }
 
-.sub201,.sub203{
-   margin-bottom: 100px;
-   margin-top: 100px;
+.sub201,
+.sub203 {
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-.sub2, .sub201, .sub203{
-   font-size: 100px;
-   
+.sub2,
+.sub201,
+.sub203 {
+  font-size: 100px;
 }
 
-.sub2,.sub201,.sub203{
-   content: "";
-   position: relative;
-
+.sub2,
+.sub201,
+.sub203 {
+  content: "";
+  position: relative;
 }
 
-.sub201::after{
-   content: "";
-   display: block;
-   width: 60%;
-   height: 2px;
-   background-image: linear-gradient(to left, black , darkgray);
-   position: absolute;
-   right: 0;
-   top: 70%;
-   z-index: -2;
+.sub201::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-image: linear-gradient(to left, black, darkgray);
+  position: absolute;
+  right: 0;
+  top: 70%;
+  z-index: -2;
 }
 
 .sub2::before {
-   content: "";
-   display: block;
-   width: 50%;
-   height: 2px;
-   background-image: linear-gradient(to right, black , darkgray);
-   position: absolute;
-   left: 0;
-   top: 50%;
-   z-index: -2;
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-image: linear-gradient(to right, black, darkgray);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
 }
 
-.sub203::before{
-   content: "";
-   display: block;
-   width: 70%;
-   height: 2px;
-   background-image: linear-gradient(to right, black , darkgray);
-   position: absolute;
-   left: 0;
-   top: 50%;
-   z-index: -2;
+.sub203::before {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 2px;
+  background-image: linear-gradient(to right, black, darkgray);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
 }
 
-span{
-background: #fff;
+span {
+  background: #fff;
 }
 
-.subtitle{
-   text-align: center;
-   margin-bottom: 100px;
-   margin-top: 100px;
-   font-size: 50px;
-   font-style: normal;
-   
+.subtitle {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  font-size: 50px;
+  font-style: normal;
 }
 
-.subtitle-seperate0{
-   margin-bottom: 1px;
-   text-align: center;
-   margin-top: 100px;
-   font-size: 50px;
-   font-style: normal;
+.subtitle-seperate0 {
+  margin-bottom: 1px;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+  font-style: normal;
 }
 
-.subtitle-seperate{
-   margin-bottom: 100px;
-   text-align: center;
-   font-size: 40px;
-   font-style: normal;
+.subtitle-seperate {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
 }
 
-.title{
-   text-align: end;
-   margin-bottom: 100px;
-   
+.title {
+  text-align: end;
+  margin-bottom: 100px;
 }
 
-.title1{
-   text-align: left;
+.title1 {
+  text-align: left;
 }
 
-.text{
-   text-align: start;
+.text {
+  text-align: start;
 }
 
-
-
-.fa-gear{
-   color: #454545;
-   position: relative;
-   top: 10px;
-   
+.fa-gear {
+  color: #454545;
+  position: relative;
+  top: 10px;
 }
 
-.fa-diagram-project, .fa-code{
-   font-size: 60px;
-   color: #454545;
+.fa-diagram-project,
+.fa-code {
+  font-size: 60px;
+  color: #454545;
 }
 
 .gears {
-   
-   position: relative;
+  position: relative;
 }
 
 .gears i {
-   position: absolute;
-   
+  position: absolute;
 }
 
 .gears i:nth-child(1) {
-   font-size: 50px;
-   animation: rotate 3s linear infinite; 
+  font-size: 50px;
+  animation: rotate 3s linear infinite;
 }
 @keyframes rotate {
-   0% {
-       transform: rotate(0deg);
+  0% {
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(359deg);
+    transform: rotate(359deg);
   }
 }
