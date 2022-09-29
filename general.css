@@ -1,85 +1,89 @@
-body{
-    background-color: lightgray;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 500;
+body {
+  background-color: lightgray;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 500;
 }
 
-li{
-   font-weight: 400;
-   font-style: normal;
-   font-size: 30px;
-   margin: 1em;
+li {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 1em;
 }
 
-.div1{
-width: 50%;
-float: left;
+.div1 {
+  width: 50%;
+  float: left;
 }
 
-.div2{
-width:50% ;
-float: right;
+.div2 {
+  width: 50%;
+  float: right;
 }
 
-span{
-    background-color: lightgray;
+span {
+  background-color: lightgray;
 }
 
-a{
-    font-size: 18px;
-    color: rgb(56, 156, 255);
+.link2 {
+  font-size: 18px;
+  color: rgb(56, 156, 255);
 }
 
+.link1 {
+  text-decoration: none;
+}
 
-
-
-
+.link1:hover {
+  text-decoration: none;
+  color: black;
+}
 
 .reveal {
-    position: relative;
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
     opacity: 0;
   }
-  .reveal.active {
+  100% {
+    transform: translateY(0);
     opacity: 1;
   }
-  .active.fade-bottom {
-    animation: fade-bottom 1s ease-in;
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
   }
-  .active.fade-left {
-    animation: fade-left 1s ease-in;
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
-  .active.fade-right {
-    animation: fade-right 1s ease-in;
+}
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
   }
-
-  @keyframes fade-bottom {
-    0% {
-      transform: translateY(50px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
-  @keyframes fade-left {
-    0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-right {
-    0% {
-      transform: translateX(100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
+}
